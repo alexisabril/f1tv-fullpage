@@ -1,0 +1,7 @@
+#app .sticky-header {
+  display: none;
+}
+
+#main-embeddedPlayer {
+  position: fixed;
+}

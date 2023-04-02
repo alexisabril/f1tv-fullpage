@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "F1TV Fullpage Player",
+  "description": "CSS overrides to render F1TV in fullpage mode",
+  "version": "0.0.0",
+  "action": {
+    "default_icon": "icons/helmet-off.png"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "src/worker.js"
+  }
+}
